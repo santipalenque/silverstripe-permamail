@@ -1,5 +1,5 @@
 {
-    "name": "unclecheese/silverstripe-permamail",
+    "name": "santipalenque/silverstripe-permamail",
     "description": "Adds database storage of emails and CMS definition of email templates.",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "email"],
