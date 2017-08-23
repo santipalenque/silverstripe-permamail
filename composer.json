@@ -1,6 +1,6 @@
 {
-    "name": "unclecheese/silverstripe-permamail",
-    "description": "Adds database storage of emails and CMS definition of email templates.",
+    "name": "santipalenque/silverstripe-permamail",
+    "description": "Fork of unclecheese lib but returning persisted object on send()",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "email"],
 	"license": "BSD-3-Clause",
