@@ -105,14 +105,14 @@ class Permamail extends Email {
 		}
 		else {
 			if($plain) {
-				parent::sendPlain($messageID);
+				return parent::sendPlain($messageID);
 			}
 			else {
-				parent::send($messageID);
+				return parent::send($messageID);
 			}
 		}
 
-		$this->persist();
+		return $this->persist();
 	}
 
 	/**
@@ -120,7 +120,7 @@ class Permamail extends Email {
 	 * @param  int $messageID
 	 */
 	public function send($messageID = null) {
-		$this->doSend($messageID, false);
+		return $this->doSend($messageID, false);
 	}
 
 	/**
@@ -128,7 +128,7 @@ class Permamail extends Email {
 	 * @param  int $messageID 	 
 	 */
 	public function sendPlain($messageID = null) {
-		$this->doSend($messageID, true);
+		return $this->doSend($messageID, true);
 	}
 
 	/**
